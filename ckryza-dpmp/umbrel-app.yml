@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: ckryza-dpmp
+name: DPMP v2
+tagline: Dual-Pool Stratum v1 Mining Proxy
+icon: https://svgur.com/i/mvA.svg
+category: Utilities
+version: "1.0.0"
+port: 8844
+description: >-
+  Dual-Pool Mining Proxy (Stratum v1) with a built-in settings GUI.
+
+  After install, open Settings to configure your pools and scheduler.
+
+developer: ckryza
+website: https://github.com/ckryza/dpmpv2
+submitter: Umbrel
+submission: https://github.com/ckryza/dpmpv2
+repo: https://github.com/ckryza/dpmpv2
+support: https://github.com/ckryza/dpmpv2/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

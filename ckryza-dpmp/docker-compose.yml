@@ -1,0 +1,28 @@
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: ckryza-dpmp_gui_1
+      APP_PORT: 8844
+    
+  gui:
+    image: ckryza/dpmpv2-gui:latest
+    restart: on-failure
+    environment:
+      DPMP_GUI_CONFIG_PATH: /dpmp/config_v2.json
+      DPMP_GUI_RESTART_URL: http://ckryza-dpmp_dpmp_1:9999/restart
+    volumes:
+      - ${APP_DATA_DIR}/data/dpmp:/dpmp
+    init: true
+
+  dpmp:
+    image: ckryza/dpmpv2:latest
+    restart: on-failure
+    environment:
+      DPMP_CONFIG: /dpmp/config_v2.json
+    volumes:
+      - ${APP_DATA_DIR}/data/dpmp:/dpmp
+    ports:
+      - "3351:3351"
+      - "9210:9210"
