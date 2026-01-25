@@ -1,2 +1,7 @@
-id: "ckryza" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
-name: "Ckryza" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
+id: ckryza-store
+name: "Chris Test Store"
+tagline: "Local test store for DPMP v2"
+description: "Minimal Umbrel Community App Store for DPMP v2 testing."
+developer: Chris Kryza
+apps:
+  - id: ckryza-dpmpv2
