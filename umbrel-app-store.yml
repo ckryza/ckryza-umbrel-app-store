@@ -1,7 +1,2 @@
 id: ckryza
 name: "Chris Test Store"
-tagline: "Local test store for DPMP v2"
-description: "Minimal Umbrel Community App Store for DPMP v2 testing."
-developer: Chris Kryza
-apps:
-  - id: ckryza-dpmpv2
