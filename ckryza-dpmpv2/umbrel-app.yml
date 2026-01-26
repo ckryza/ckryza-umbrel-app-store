@@ -4,7 +4,7 @@ category: bitcoin
 name: DPMP v2
 version: "0.1.0"
 tagline: Dual-Pool Stratum v1 mining proxy
-icon: https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/main/ckryza-dpmpv2/icon.png
+icon: https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/icon.png
 description: >-
   DPMP v2 is a Stratum v1 mining proxy that sits between miners and two upstream pools.
   It supports deterministic time-sliced dual-pool scheduling, safe job/share routing, and a NiceGUI UI.
@@ -15,9 +15,9 @@ support: https://github.com/ckryza/dpmpv2/issues
 dependencies: []
 port: 8855
 gallery:
-  - https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/main/ckryza-dpmpv2/1.png
-  - https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/main/ckryza-dpmpv2/2.png
-  - https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/main/ckryza-dpmpv2/3.png
+  - https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/1.png
+  - https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/2.png
+  - https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/3.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
