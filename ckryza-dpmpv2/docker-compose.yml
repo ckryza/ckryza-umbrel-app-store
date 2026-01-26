@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   dpmpv2:
-    build: .
+    image: ghcr.io/ckryza/dpmpv2:latest
     container_name: dpmpv2
     restart: unless-stopped
 
