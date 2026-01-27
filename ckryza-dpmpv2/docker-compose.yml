@@ -14,7 +14,7 @@ services:
     environment:
       DPMP_CONFIG: /data/config_v2.json
       DPMP_CONFIG_PATH: /data/config_v2.json
-      DPMP_METRICS_URL: http://127.0.0.1:9211/metrics
+      DPMP_METRICS_URL: http://127.0.0.1:9210/metrics
       DPMP_LOG_PATH: /data/dpmpv2_run.log
       GUI_LOG_PATH: /data/dpmpv2_gui.log
       NICEGUI_HOST: 0.0.0.0
