@@ -7,8 +7,8 @@ services:
 
     # Expose Stratum + metrics + NiceGUI
     ports:
-      - "3352:3351"
-      - "9211:9210"
+      - "3351:3351"
+      - "9210:9210"
       - "8855:8855"
 
     environment:
