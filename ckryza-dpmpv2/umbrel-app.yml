@@ -2,17 +2,14 @@ manifestVersion: 1
 id: ckryza-dpmpv2
 category: bitcoin
 name: DPMP v2
-version: "0.1.4"
+version: "0.1.5"
 tagline: Dual-Pool Stratum v1 mining proxy
 icon: https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/icon.png
 description: >-
   Dual Pool Mining Proxy (DPMP) is a Stratum v1 proxy that sits between your miner(s)
   and two upstream pools, letting you split hashing across both. It supports deterministic
   time-sliced scheduling, safe job/share routing, and a NiceGUI web dashboard.
-  Note: Umbrel installs use host ports 3352 (Stratum) and 9211 (metrics) to avoid
-  conflicts with an existing DPMP instance that may already be using 3351/9210.
-  The DPMP service inside the container still listens on 3351/9210; only the host
-  port mapping changes. The web UI is on 8855.
+  Note: Umbrel installs use host ports 3351 (Stratum) and 9210 (metrics), and the web UI is on 8855.
 developer: Chris Kryza
 website: https://github.com/ckryza/dpmpv2
 repo: https://github.com/ckryza/dpmpv2
