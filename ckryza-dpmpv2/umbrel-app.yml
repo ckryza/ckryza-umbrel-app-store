@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ckryza-dpmpv2
 category: bitcoin
 name: DPMP v2
-version: "0.1.3"
+version: "0.1.4"
 tagline: Dual-Pool Stratum v1 mining proxy
 icon: https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/icon.png
 description: >-
