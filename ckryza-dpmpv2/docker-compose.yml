@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   app:
-    image: ghcr.io/ckryza/dpmpv2:d5818ba
+    image: ghcr.io/ckryza/dpmpv2:aeef9ab
     restart: unless-stopped
 
     # Expose Stratum + metrics + NiceGUI
