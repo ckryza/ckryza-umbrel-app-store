@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ckryza-dpmpv2
 category: bitcoin
 name: DPMP v2
-version: "0.1.5"
+version: "2.0.0"
 tagline: Dual-Pool Stratum v1 mining proxy
 icon: https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/icon.png
 description: >-
@@ -24,5 +24,13 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  First Umbrel release: DPMP proxy + NiceGUI dashboard.
+-- fixed reject storm issue on pool switch
+-- added a more rapid ratio/weight convergence
+-- added scheduler validation
+-- increased grace period to better tolerate stale submits after pool switch
+-- ensure single-pool operation on 0/100 and 100/0 weighting
+-- added pool failover protection (A or B, or both)
+-- added global exception handler
+-- added periodic state pruning
+  DPMP proxy + NiceGUI dashboard.
 submitter: ckryza
