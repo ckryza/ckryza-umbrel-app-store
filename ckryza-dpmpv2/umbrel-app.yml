@@ -24,13 +24,9 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
--- fixed reject storm issue on pool switch
--- added a more rapid ratio/weight convergence
--- added scheduler validation
--- increased grace period to better tolerate stale submits after pool switch
--- ensure single-pool operation on 0/100 and 100/0 weighting
--- added pool failover protection (A or B, or both)
--- added global exception handler
--- added periodic state pruning
-  DPMP proxy + NiceGUI dashboard.
+  Fixed reject storms during pool switches. Improved scheduler convergence and
+  validation. Increased grace period for stale submits. Ensured correct
+  single-pool behavior at 0/100 and 100/0 weights. Added pool failover protection,
+  global exception handling, and periodic state pruning.
+
 submitter: ckryza
