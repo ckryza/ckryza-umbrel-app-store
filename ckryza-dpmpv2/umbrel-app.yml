@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ckryza-dpmpv2
 category: bitcoin
 name: DPMP v2
-version: "2.0.0"
+version: "2.0.1"
 tagline: Dual-Pool Stratum v1 mining proxy
 icon: https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/icon.png
 description: >-
@@ -24,9 +24,5 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Fixed reject storms during pool switches. Improved scheduler convergence and
-  validation. Increased grace period for stale submits. Ensured correct
-  single-pool behavior at 0/100 and 100/0 weights. Added pool failover protection,
-  global exception handling, and periodic state pruning.
-
+  Fixes for NerdAxe Gamma and Braiins BM-101
 submitter: ckryza
