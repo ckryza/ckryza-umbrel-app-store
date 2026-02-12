@@ -22,6 +22,9 @@ Click on the Open button, then click on DPMP v2, and click on the Install button
 
 DPMP v2 will be installed and the icon will appear on your Umbrel home page.
 
+⚠️ **After first launch**:
+Open the **DPMP** GUI interface `(e.g., browse to '<dpmp-proxy-ip>:8855/')`, click on the **Config** tab, and **update Pool A and Pool B settings** (host, port, name, wallet) before mining. Pay special attention to the wallet addresses and make sure the wallet address you add is correct for the pool you are adding it to.
+
 ## Ports
 
 DPMP v2 uses ports 3351 (stratum) and 9210 (metrics), 8855 (GUI)
@@ -34,6 +37,16 @@ Logs live in /data and auto-rotate at 50 MB x 3.
 
 Updates via the Community App Store preserve both config and logs.
 
+## Error Reporting
+
+If you encounter errors associated either with a particular miner or a particular pool:
+
+- Please make sure that all events are being logged on the Config tab
+- Click APPLY + RESTART to restart DPMP and recreate the error
+- Click on the Download Log button on the Logs tab
+- Send a description of the problem (i.e., miner-related or pool-related and identify the miner or pool) to dpmp.project@gmail.com and attach the log file.
+
+We have tested DPMP with a number of different miners and pools but it is by no means an exhaustive list. The log data you provide will help us to expand the list of supported miners and pools.
 
 ## What DPMP v2 Does
 
@@ -144,6 +157,11 @@ DPMP v2 is designed for users who:
 ---
 
 # Changelog
+
+## 3.0.0 - 2026-02-11
+- calculate realtime network hashrate for BTC and BCH (short-term and long-term)
+- add auto-balance options to config
+- add auto-balance logic to DPMP and dashboard
 
 ## 2.0.2 - 2026-02-09
 - Fixes for ck-type pools and bootstrap sequence
