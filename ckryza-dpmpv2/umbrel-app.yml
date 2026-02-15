@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ckryza-dpmpv2
 category: bitcoin
 name: DPMP v2
-version: "3.0.0"
+version: "3.0.1"
 tagline: Dual-Pool Stratum v1 mining proxy
 icon: https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/icon.png
 description: >-
@@ -24,5 +24,5 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Add auto-balance feature to dynamically adjust pool weights based on BTC/BCH realtime network hashrate
+  Can now switch between Slider and Auto-Balance in realtime with no restart required, Auto-Balance times now in local time, minor cosmetic updates
 submitter: ckryza
