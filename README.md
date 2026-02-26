@@ -8,6 +8,12 @@ This repository contains the **v2 architecture**, which is a ground-up redesign 
 
 ---
 
+## Landing Page
+
+https://ckryza.github.io/dpmpv2/
+
+---
+
 ## Quick Install (UmbrelOS)
 
 In Umbrel, go into the App Store, click on the ellipsis at top-right and select "Community App Stores".
@@ -157,6 +163,12 @@ DPMP v2 is designed for users who:
 ---
 
 # Changelog
+
+## 3.0.3 - 2026-02-26
+- finalize fleet implementation
+- add Fleet table to Stats tab
+- address pool/miner compatibility issues
+- cosmetic updates
 
 ## 3.0.2 - 2026-02-17
 - add Stats tab with Worker and Pool tables
