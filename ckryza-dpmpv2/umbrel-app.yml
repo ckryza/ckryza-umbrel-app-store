@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ckryza-dpmpv2
 category: bitcoin
 name: DPMP v2
-version: "3.0.5"
+version: "3.0.6"
 tagline: Dual-Pool Stratum v1 mining proxy
 icon: https://raw.githubusercontent.com/ckryza/ckryza-umbrel-app-store/master/ckryza-dpmpv2/icon.png
 description: >-
@@ -24,5 +24,5 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Add worker on/off toggle, config A/B swap button, adjust pool switching logic
+  Add manual assignment panel, add pool address book, numerous fixes/additions to improve pool compatibility and stability
 submitter: ckryza
